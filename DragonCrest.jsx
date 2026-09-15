@@ -1,0 +1,3 @@
+import React from 'react';
+
+export default function DragonCrest({size=20,className=''}){return <svg width={size} height={size} viewBox="0 0 64 64" fill="none" className={className} aria-hidden="true"><circle cx="32" cy="32" r="29" fill="#8B1E2D"/><circle cx="32" cy="32" r="25" stroke="#F3C8C8" strokeWidth="1.5" opacity=".75"/><path d="M31 45c-9-2-15-8-15-15 0-5 3-9 8-11-2 5 0 8 5 10-2-7 0-13 3-18 4 5 5 11 3 18 5-2 7-5 5-10 5 2 8 6 8 11 0 7-6 13-15 15l-1 8-1-8h-3l-1 8-1-8h-3l-1 8-1-8Z" fill="#FFF4F2"/><path d="M25 20l-7-6 2 9m19-3 7-6-2 9M29 29l-8 3 8 2m6-5 8 3-8 2" stroke="#8B1E2D" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>}
